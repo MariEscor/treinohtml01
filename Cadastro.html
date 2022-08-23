@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Cadstyle.css">
+
+</head>
+<body>
+
+    <div class="box box-border-radius">
+        <div class="tudo">
+        
+            
+        <div class="cad-form">
+            <div class="form-title">
+    <h2>Cadastro</h2>
+    </div>
+
+
+    
+
+    <form action="Login.html" method="get">
+        
+        <div class="textos">
+            <input type="text" name="Nome" id="nome" placeholder="Nome" required> 
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required> 
+            <input type="email" name="email" id="email" placeholder="E-mail" required> 
+            <input type="password" name="senha" id="senha" placeholder="Senha" required> 
+            <input type="password" name="senhadnv" id="senhadnv" placeholder="Confirme sua senha" required> <br>
+        </div>
+
+
+    <div class="gen-form">
+        <div class="form-title">
+    <h3>Gênero</h3>
+</div>
+</div>
+
+    <div class="radio">
+        <div class="quebra-radio">
+            <input class="input-radio" type="radio" name="genero" id="masculino">
+            <label class="label-radio" for="masculino">Masculino</label> 
+        </div>
+        <div class="quebra-radio">
+            <input class="input-radio" type="radio" name="genero" id="feminino">
+            <label class="label-radio" for="feminino">Feminino</label>
+        </div>
+        <div class="quebra-radio">
+            <input class="input-radio" type="radio" name="genero" id="Personalizado">
+            <label class="label-radio" for="Personalizado">Personalizado</label> 
+        </div> 
+    </div>
+
+    <div class="checkbox">
+        <input class="input-checkbox" type="checkbox" name="termos" id="termos" required>
+        <label class="label-checkbox" for="termos">Li e concordo com os termos.</label>
+    <div class="checkbox2"></div>
+        <input class="input-checkbox2" type="checkbox" name="novidades" id="novidades">
+        <label class="label-checkbox" for="novidades">Deseja receber novidades.</label>
+    </div>
+
+    <button class="botao">Cadastrar</button>
+    </form>
+
+    <div class="conta">
+        <b> Já tem uma conta? <a href="index.html"> Retornar a tela de login </a></b>
+    </div>
+
+</div>
+
+    
+
+</body>
+</html>
